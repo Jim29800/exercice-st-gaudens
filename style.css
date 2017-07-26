@@ -1,0 +1,47 @@
+.log {
+	width: 10%;
+}
+
+.menu {
+	display: flex;
+	justify-content: space-between;
+	width: 40%;
+	margin-right: 10%;
+}
+
+.header {
+	display: flex;
+	height: 5em;
+	justify-content: space-between;
+}
+
+.sous-menu {
+	display: flex;
+	justify-content: center;
+
+}
+
+.sous-menu select,.sous-menu input {
+	margin-right: 5%;
+}
+
+.container {
+	width: 70%;
+	margin-left: 15%;
+	display: flex;
+
+}
+
+.images {
+	width: 80%;
+
+}
+
+.texte {
+	width: 20%;
+}
+
+.footer {
+	display: flex;
+	justify-content: center;
+}
