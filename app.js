@@ -11,6 +11,16 @@ $("#link2").click(function(){
 	alert("Je viens du nord et je suis l'empereur Palpainauchocolat")	
 });
 
-$("DIV.images input").click(function(){
-	console.log("PAIN AU CHOCOLAT BORDEL")
+$("div.images > input").click(function(){
+	$('.texte').html($(this).data('tech'));
+
+	'use strict';
+	
+	if($(this).hasClass('selected')){
+		$(this).removeClass('selected');
+
+	} else {
+		$(".images > input").removeClass('selected');
+		$(this).addClass('selected');
+	}
 });
